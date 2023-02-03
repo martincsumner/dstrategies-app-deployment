@@ -19,7 +19,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: 'quay.io/acidonpe/dstrategies-frontend:v2.0.0'
+      - image: 'quay.io/acidonpe/dstrategies-frontend:latest'
         imagePullPolicy: Always
         name: dstrategies-frontend
         ports:
